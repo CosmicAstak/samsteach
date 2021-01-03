@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DevTreino</title>
+</head>
+<body>
+	<!-- Primeira lista numerada (ordered list): treinando o estilo de números via css. Usando o atributo 'style' e a propriedade 'list-style-type' para mudar o caractere de número. --> 
+
+	<h1>How to Boil an Egg</h1>
+	<ol style="list-style-type: decimal;">
+		<li>Put eggs in a pot filled with cold water</li>
+		<li>Bring the water to boil</li>
+		<li>Take the pot off the heat, cover it, and let it sit for 12 minutes</li>
+		<li>Remove the eggs from the water and cool them by running water over them or placing them in a bowl of ice water to cool off</li>
+		<li>Peel and eat</li>
+	</ol>
+	<br>
+
+	<!-- Segunda lista numerada. Dessa vez mudando o estilo para algarismos romanos maiúsculos. -->
+
+	<h1>The days of the week in French</h1>
+		<ol style="list-style-type: upper-roman;">
+			<li>Lundi</li>
+			<li>Mardi</li>
+			<li>Mercredi</li>
+			<li>Jeudi</li>
+			<li>Vendredi</li>
+			<li>Samedi</li>
+			<li>Dimanche</li>
+		</ol>
+		<br>
+
+		<!-- Terceira Lista Numerada: Acrescentando o atributo 'start' para alterar qual número começa a contagem. -->
+
+	<h1>The Last Six Moths of the Year(and the Beginning of the Next Year):</h1>
+
+		<ol style="list-style-type: upper-roman;" start="7">
+			<li>July</li>
+			<li>August</li>
+			<li>September</li>
+			<li>November</li>
+			<li>December</li>
+			<li>January</li>
+		</ol>
+		<br>
+
+		<!-- Quarta Lista Numerada: Trabalhando com o atributo 'value' em um ítem específico da lista para alterar a contagem a partir dele. -->
+
+		<h1>Cheese Cake Ingredients</h1>
+		<ol>
+			<li>Quark Cheese</li>
+			<li>Honey</li>
+			<li>Cocoa</li>
+			<li>Vanilla Extract</li>
+			<li>Flour</li>
+			<li value="10">Eggs</li>
+			<li>Walnuts</li>
+			<li>Margarine</li>
+		</ol>
+		<br>
+
+		<!-- Primeira Lista não numerada (Unordered List 'ul'): Simples amostra, com resultado padronizado, de bolinhas marcando os ítens. -->
+
+		<h1>Things I like to do in the morning</h1>
+		<ul>
+			<li>Drink a cup of coffee</li>
+			<li>Watch the sunrise</li>
+			<li>Listen to the bird sing</li>
+			<li>Hear the wind rustling through the trees</li>
+			<li>Curse the construction noises for spoiling the paceful mood</li>
+		</ul>
+		<br>
+
+
+		<!-- Segunda Lista não numerada: mudando o estilo da bolinha (bullet) ou marcação, como queira chamar. -->
+
+		<h2>Some Ancient Media Substract</h2>
+		<ul style="list-style-type: disc;">
+			<li>DAT - Digital Audio Tapes</li>
+			<li>CD - Compact Discs</li>
+			<li>Cassetes</li>
+		</ul>
+
+		<ul style="list-style-type: square;">
+			<li>DAT - Digital Audio Tapes</li>
+			<li>CD - Compact Discs</li>
+			<li>Cassetes</li>
+		</ul>
+
+		<ul style="list-style-type: circle;">
+			<li>DAT - Digital Audio Tapes</li>
+			<li>CD - Compact Discs</li>
+			<li>Cassetes</li>
+		</ul>
+		<br>
+		<p>Exemplo de troca de bullet padrão por imagem</p>
+		<ul style="list-style-image: url(blt1.png);"> 
+			<!--Vi no DevTools que o tamanho da fonte era 16px e redimensionei a imagem no Photoshop para esse mesmo tamanho. Deu certo como substituto do bullet padrão. Outros tamanhos foram tentados, mas esse foi o melhor.-->
+			<li>Exemplo</li>
+			<li>Exemplo mais uma vez</li>
+			<li>Exemplo de novo</li>
+		</ul>
+	
+</body>
+</html>
