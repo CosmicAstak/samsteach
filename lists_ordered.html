@@ -97,11 +97,30 @@
 		<br>
 		<p>Exemplo de troca de bullet padrão por imagem</p>
 		<ul style="list-style-image: url(blt1.png);"> 
+
 			<!--Vi no DevTools que o tamanho da fonte era 16px e redimensionei a imagem no Photoshop para esse mesmo tamanho. Deu certo como substituto do bullet padrão. Outros tamanhos foram tentados, mas esse foi o melhor.-->
+
 			<li>Exemplo</li>
 			<li>Exemplo mais uma vez</li>
 			<li>Exemplo de novo</li>
 		</ul>
-	
+		<br>
+
+		<!--RESUMO-->
+
+		<p>Usei as seguintes estruturas:</p>
+		<ul style="list-style-image: url(blt1.png);"> 
+			<li>ol style="list-style-type: decimal;"</li>
+			<li>ol style="list-style-type: upper-roman;"</li>
+			<li>ol style="list-style-type: upper-roman;" start="7"</li>
+			<li>value="10">Eggs</li> <!--Dentro do li-->
+			<li>ul style="list-style-type: disc;"</li>
+			<li>ul style="list-style-type: square;"</li>
+			<li>ul style="list-style-type: circle;"</li>
+			<li>ul style="list-style-image: url(blt1.png);"</li>	
+		</ul>
+		
+		<p>OBS: Por padrão, a bolinha é disc. No css será necessário retirá-la quando não for desejada. </p>
+		
 </body>
 </html>
